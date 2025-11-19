@@ -6,7 +6,7 @@ $baris = 1;
 while ($baris <= $jumBaris) {
     echo "<tr>";
     $kolom = 1;
-    while ($baris <= $jumKolom) {
+    while ($kolom <= $jumKolom) {
         echo"<td>...</td>";
         $kolom++;
     }
@@ -15,4 +15,5 @@ while ($baris <= $jumBaris) {
 }
 echo "</table>";
 ?>
+
 
